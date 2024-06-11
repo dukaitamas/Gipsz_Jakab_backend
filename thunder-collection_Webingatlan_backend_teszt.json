@@ -1,0 +1,84 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Webingatlan_backend_teszt",
+    "collectionId": "5a4269f8-28bd-48e6-8d56-6cd2efcd9c4e",
+    "dateExported": "2024-06-11T14:59:43.085Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "821dcb87-7540-43b0-b944-4034e110ba12",
+            "colId": "5a4269f8-28bd-48e6-8d56-6cd2efcd9c4e",
+            "containerId": "",
+            "name": "get all esttates",
+            "url": "http://127.0.0.1:8000/api/ingatlan",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-11T14:19:01.808Z",
+            "modified": "2024-06-11T14:19:43.989Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "2b200c73-e89f-4343-9325-a6e6268c6703",
+            "colId": "5a4269f8-28bd-48e6-8d56-6cd2efcd9c4e",
+            "containerId": "",
+            "name": "create estate",
+            "url": "http://127.0.0.1:8000/api/ingatlan",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-11T14:40:56.748Z",
+            "modified": "2024-06-11T14:50:43.303Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n \"kategoria\": 2,\r\n \"leiras\": \"Eladó ...\",\r\n \"hirdetesDatuma\": \"2022-03-19\",\r\n \"tehermentes\": true,\r\n \"ar\": 45000000,\r\n \"kepUrl\": \"https://pictures.com/apartman.jpg\"\r\n}\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "81d3a287-ec87-450b-a4a4-016e2ab8ab6b",
+            "colId": "5a4269f8-28bd-48e6-8d56-6cd2efcd9c4e",
+            "containerId": "",
+            "name": "get estates of category",
+            "url": "http://127.0.0.1:8000/api/categories/2/estates",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-11T14:56:46.333Z",
+            "modified": "2024-06-11T14:58:00.600Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "5245090d-2995-473d-ab2c-33dc6f67add3",
+            "colId": "5a4269f8-28bd-48e6-8d56-6cd2efcd9c4e",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://127.0.0.1:8000/api/ingatlan/7",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-06-11T14:45:45.060Z",
+            "modified": "2024-06-11T14:48:41.665Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        }
+    ],
+    "ref": "sE8eiugMC1unE1hqjJ_jsuchEPwODmqpIFpcn_hduddM1LBHmVPuErKhVgZRm-2cF_7u9AukDXpbK-3xV-Yfvg"
+}
